@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Optima:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core Background Colors */
+    --color-background: #FDF6E3; /* cream-50 - Peaceful parchment */
+    --color-foreground: #2C1810; /* brown-900 - Rich reading */
+    --color-card: #F5F0E8; /* stone-50 - Subtle temple stone */
+    --color-card-foreground: #2C1810; /* brown-900 - Rich reading */
+    --color-popover: #F5F0E8; /* stone-50 - Subtle temple stone */
+    --color-popover-foreground: #2C1810; /* brown-900 - Rich reading */
+    
+    /* Border & Input Colors */
+    --color-border: rgba(139, 69, 19, 0.2); /* brown-600/20 - Subtle separation */
+    --color-input: #F5F0E8; /* stone-50 - Form background */
+    --color-ring: #8B4513; /* brown-600 - Sacred earth focus */
+    
+    /* Muted Colors */
+    --color-muted: #F5F0E8; /* stone-50 - Gentle background */
+    --color-muted-foreground: #5D4E37; /* brown-700 - Clear hierarchy */
+    
+    /* Primary Brand Colors */
+    --color-primary: #8B4513; /* brown-600 - Sacred earth connection */
+    --color-primary-foreground: #FFFFFF; /* white - Clean contrast */
+    
+    /* Secondary Brand Colors */
+    --color-secondary: #2F4F2F; /* green-900 - Ubud forest tranquility */
+    --color-secondary-foreground: #FFFFFF; /* white - Clean contrast */
+    
+    /* Accent Colors */
+    --color-accent: #DAA520; /* gold-500 - Spiritual enlightenment */
+    --color-accent-foreground: #2C1810; /* brown-900 - Rich contrast */
+    
+    /* Semantic Colors */
+    --color-success: #228B22; /* green-600 - Positive growth */
+    --color-success-foreground: #FFFFFF; /* white - Clean contrast */
+    
+    --color-warning: #FF8C00; /* orange-600 - Gentle urgency */
+    --color-warning-foreground: #FFFFFF; /* white - Clean contrast */
+    
+    --color-error: #CD5C5C; /* red-500 - Compassionate correction */
+    --color-error-foreground: #FFFFFF; /* white - Clean contrast */
+    
+    --color-destructive: #CD5C5C; /* red-500 - Compassionate correction */
+    --color-destructive-foreground: #FFFFFF; /* white - Clean contrast */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Source Serif Pro', serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crimson Text', serif;
+  }
+}
