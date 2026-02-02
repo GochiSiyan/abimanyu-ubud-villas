@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { Villa, VillaData } from '@/lib/global';
 import HeroSection from './HeroSection';
 import VillaCard from './VillaCard';
 import MythologySection from './MythologySection';
@@ -9,18 +10,6 @@ import TestimonialSection from './TestimonialSection';
 import LocationSection from './LocationSection';
 import CTASection from './CTASection';
 import Footer from './Footer';
-
-interface Villa {
-  id: number;
-  name: string;
-  pandavaBrother: string;
-  trait: string;
-  description: string;
-  image: string;
-  alt: string;
-  price: number;
-  available: boolean;
-}
 
 interface MythologyItem {
   id: number;
@@ -58,62 +47,7 @@ export default function HomepageInteractive() {
     setIsHydrated(true);
   }, []);
 
-  const villas: Villa[] = [
-  {
-    id: 1,
-    name: "Villa Yudistira",
-    pandavaBrother: "Yudistira",
-    trait: "Wisdom",
-    description: "The eldest brother's villa embodies dharma and righteous wisdom. Featuring a meditation pavilion overlooking rice terraces, this sanctuary offers the perfect space for contemplation and spiritual growth.",
-    image: "https://images.unsplash.com/photo-1672128558353-eee6ffe7b3e9",
-    alt: "Luxurious Balinese villa with traditional thatched roof, infinity pool overlooking emerald rice terraces, and meditation pavilion surrounded by tropical gardens",
-    price: 850,
-    available: true
-  },
-  {
-    id: 2,
-    name: "Villa Bima",
-    pandavaBrother: "Bima",
-    trait: "Strength",
-    description: "Inspired by the mighty warrior's courage, this villa features bold architecture and powerful design elements. The private gym and outdoor training area reflect Bima's legendary physical prowess.",
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_119bb1cdb-1765061397260.png",
-    alt: "Modern luxury villa with bold angular architecture, private fitness pavilion, and dramatic infinity pool with mountain views in Ubud",
-    price: 920,
-    available: true
-  },
-  {
-    id: 3,
-    name: "Villa Arjuna",
-    pandavaBrother: "Arjuna",
-    trait: "Focus",
-    description: "The master archer's precision and concentration inspire this villa's design. Clean lines, minimalist aesthetics, and a dedicated workspace create an environment of perfect focus and clarity.",
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_14c314116-1767893349903.png",
-    alt: "Minimalist luxury villa with clean architectural lines, zen garden, dedicated meditation and work space, surrounded by bamboo forest in Ubud",
-    price: 880,
-    available: false
-  },
-  {
-    id: 4,
-    name: "Villa Nakula",
-    pandavaBrother: "Nakula",
-    trait: "Beauty",
-    description: "Celebrating the handsome twin's appreciation for aesthetics, this villa showcases exquisite Balinese artistry. Every detail reflects refined taste and cultural beauty.",
-    image: "https://images.unsplash.com/photo-1640664652266-374d9d493c6b",
-    alt: "Elegant Balinese villa featuring intricate traditional wood carvings, lotus pond, art gallery space, and lush tropical garden with traditional stone sculptures",
-    price: 900,
-    available: true
-  },
-  {
-    id: 5,
-    name: "Villa Sadewa",
-    pandavaBrother: "Sadewa",
-    trait: "Devotion",
-    description: "The youngest brother's spiritual devotion manifests in this villa's sacred spaces. A private temple, healing garden, and ceremonial areas honor Balinese spiritual traditions.",
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_10efa58fb-1765517565758.png",
-    alt: "Spiritual luxury villa with private temple shrine, healing herb garden, ceremonial courtyard, and traditional Balinese water features surrounded by frangipani trees",
-    price: 870,
-    available: true
-  }];
+  const villas: Villa[] = VillaData;
 
 
   const mythologyItems: MythologyItem[] = [

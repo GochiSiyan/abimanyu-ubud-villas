@@ -6,9 +6,9 @@ import Icon from '@/components/ui/AppIcon';
 
 interface VillaCardProps {
   villa: {
-    id: string;
+    id: number;
     name: string;
-    pandavaBrother: string;
+    pandavaBrotherAlias: string;
     characteristic: string;
     description: string;
     image: string;
@@ -21,8 +21,8 @@ interface VillaCardProps {
     symbol: string;
     color: string;
   };
-  onViewDetails: (villaId: string) => void;
-  onBook: (villaId: string) => void;
+  onViewDetails: (villaId: number) => void;
+  onBook: (villaId: number) => void;
 }
 
 const VillaCard = ({ villa, onViewDetails, onBook }: VillaCardProps) => {
@@ -66,7 +66,7 @@ const VillaCard = ({ villa, onViewDetails, onBook }: VillaCardProps) => {
             {villa.name}
           </h3>
           <p className="font-accent text-sm text-accent uppercase tracking-widest">
-            {villa.pandavaBrother}
+            {villa.pandavaBrotherAlias}
           </p>
         </div>
 

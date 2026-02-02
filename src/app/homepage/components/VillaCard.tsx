@@ -7,7 +7,7 @@ interface VillaCardProps {
     name: string;
     pandavaBrother: string;
     trait: string;
-    description: string;
+    description2: string;
     image: string;
     alt: string;
     price: number;
@@ -25,7 +25,7 @@ export default function VillaCard({ villa, onLearnMore }: VillaCardProps) {
           src={villa.image}
           alt={villa.alt}
           fill
-          className="object-cover transition-transform duration-700 group-hover:scale-110"
+          className="object-cover transition-transform duration-700 group-hover:scale-110 w-full h-full"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
         
@@ -64,7 +64,7 @@ export default function VillaCard({ villa, onLearnMore }: VillaCardProps) {
 
         {/* Description */}
         <p className="font-body text-base text-muted-foreground leading-relaxed line-clamp-3">
-          {villa.description}
+          {villa.description2}
         </p>
 
         {/* Price & CTA */}

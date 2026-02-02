@@ -6,9 +6,9 @@ import Icon from '@/components/ui/AppIcon';
 
 interface VillaDetailModalProps {
   villa: {
-    id: string;
+    id: number;
     name: string;
-    pandavaBrother: string;
+    pandavaBrotherAlias: string;
     characteristic: string;
     description: string;
     fullDescription: string;
@@ -27,7 +27,7 @@ interface VillaDetailModalProps {
   } | null;
   isOpen: boolean;
   onClose: () => void;
-  onBook: (villaId: string) => void;
+  onBook: (villaId: number) => void;
 }
 
 const VillaDetailModal = ({ villa, isOpen, onClose, onBook }: VillaDetailModalProps) => {
@@ -79,7 +79,7 @@ const VillaDetailModal = ({ villa, isOpen, onClose, onBook }: VillaDetailModalPr
                 {villa.name}
               </h2>
               <p className="font-accent text-lg text-accent uppercase tracking-widest">
-                {villa.pandavaBrother}
+                {villa.pandavaBrotherAlias}
               </p>
             </div>
           </div>

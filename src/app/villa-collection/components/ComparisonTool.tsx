@@ -4,9 +4,9 @@ import AppImage from '@/components/ui/AppImage';
 import Icon from '@/components/ui/AppIcon';
 
 interface Villa {
-  id: string;
+  id: number;
   name: string;
-  pandavaBrother: string;
+  pandavaBrotherAlias: string;
   characteristic: string;
   image: string;
   alt: string;
@@ -21,7 +21,7 @@ interface Villa {
 interface ComparisonToolProps {
   villas: Villa[];
   onClose: () => void;
-  onBook: (villaId: string) => void;
+  onBook: (villaId: number) => void;
 }
 
 const ComparisonTool = ({ villas, onClose, onBook }: ComparisonToolProps) => {
@@ -71,7 +71,7 @@ const ComparisonTool = ({ villas, onClose, onBook }: ComparisonToolProps) => {
                         {villa.name}
                       </h3>
                       <p className="font-accent text-sm text-accent uppercase tracking-widest">
-                        {villa.pandavaBrother}
+                        {villa.pandavaBrotherAlias}
                       </p>
                     </div>
 
