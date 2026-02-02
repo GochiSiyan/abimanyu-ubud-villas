@@ -40,7 +40,11 @@ export const VillaData: Villa[] = [
     { url: '/assets/images/villa/yudistira/cover.webp', alt: 'Spacious master bedroom with four-poster bed, white linens, wooden furniture, and large windows overlooking tropical garden' },
     { url: '/assets/images/villa/yudistira/bed.webp', alt: 'Open-air living room with comfortable seating, traditional Balinese decor, and views of rice paddies' },
     { url: '/assets/images/villa/yudistira/outside.webp', alt: 'Private infinity pool with stone deck, lounge chairs, and panoramic views of Ubud valley' },
+    { url: '/assets/images/villa/yudistira/outside2.webp', alt: '' },
+    { url: '/assets/images/villa/yudistira/outside3.webp', alt: '' },
+    { url: '/assets/images/villa/yudistira/kura.webp', alt: '' },
     { url: '/assets/images/villa/yudistira/interior.webp', alt: 'Traditional Balinese outdoor bathroom with stone bathtub, tropical plants, and natural lighting' },
+    { url: '/assets/images/villa/yudistira/interior2.webp', alt: '' },
     { url: '/assets/images/villa/yudistira/bath.webp', alt: 'Meditation pavilion with cushions, incense, and serene garden views' },
     { url: '/assets/images/villa/yudistira/plang.webp', alt: 'Fully equipped modern kitchen with island, wooden cabinets, and traditional Balinese accents' }],
 
@@ -85,11 +89,7 @@ export const VillaData: Villa[] = [
     { url: '/assets/images/villa/bima/cover.webp', alt: 'Contemporary master suite with king bed, minimalist design, floor-to-ceiling windows, and mountain views' },
     { url: '/assets/images/villa/bima/bed.webp', alt: 'Outdoor fitness pavilion with yoga mats, weights, and panoramic jungle views' },
     { url: '/assets/images/villa/bima/outside.webp', alt: 'Large infinity pool with waterfall feature, sun loungers, and tropical landscaping' },
-    { url: '/assets/images/villa/bima/outside2.webp', alt: '' },
-    { url: '/assets/images/villa/bima/outside3.webp', alt: '' },
-    { url: '/assets/images/villa/bima/kura.webp', alt: '' },
     { url: '/assets/images/villa/bima/interior.webp', alt: 'Open-plan living area with high ceilings, modern furniture, and natural stone accents' },
-    { url: '/assets/images/villa/bima/interior2.webp', alt: 'Open-plan living area with high ceilings, modern furniture, and natural stone accents' },
     { url: '/assets/images/villa/bima/bath.webp', alt: 'Outdoor dining terrace with long wooden table, ambient lighting, and forest backdrop' },
     { url: '/assets/images/villa/bima/plang.webp', alt: 'Luxurious spa bathroom with rain shower, soaking tub, and natural stone walls' }],
 
