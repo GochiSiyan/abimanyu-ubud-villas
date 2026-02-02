@@ -157,7 +157,7 @@ const VillaDetailModal = ({ villa, isOpen, onClose, onBook }: VillaDetailModalPr
               <h3 className="font-headline text-2xl font-semibold text-foreground mb-4">
                 Villa Gallery
               </h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <div className="grid grid-cols md:grid-cols-3 gap-4">
                 {villa.gallery.map((image, index) => (
                   <div key={index} className="relative h-48 rounded-lg overflow-hidden group">
                     <AppImage
