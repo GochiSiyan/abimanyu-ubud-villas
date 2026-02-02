@@ -177,7 +177,7 @@ const VillaDetailModal = ({ villa, isOpen, onClose, onBook }: VillaDetailModalPr
                   Starting From
                 </p>
                 <p className="font-headline text-3xl font-semibold text-primary">
-                  ${villa.price}
+                  Rp. {villa.price.toLocaleString('id-ID')}
                   <span className="font-body text-base text-muted-foreground ml-2">per night</span>
                 </p>
               </div>

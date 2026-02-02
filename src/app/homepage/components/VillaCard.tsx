@@ -74,7 +74,7 @@ export default function VillaCard({ villa, onLearnMore }: VillaCardProps) {
               From
             </p>
             <p className="font-headline text-2xl font-semibold text-primary">
-              ${villa.price.toLocaleString()}
+              Rp. {villa.price.toLocaleString('id-ID')}
               <span className="font-body text-sm text-muted-foreground font-normal">/night</span>
             </p>
           </div>

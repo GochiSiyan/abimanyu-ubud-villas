@@ -53,7 +53,7 @@ const VillaCard = ({ villa, onViewDetails, onBook }: VillaCardProps) => {
         {/* Price Badge */}
         <div className="absolute bottom-4 left-4 bg-primary/95 text-primary-foreground px-4 py-2 rounded-md backdrop-blur-sm">
           <p className="text-sm font-accent uppercase tracking-wider">From</p>
-          <p className="text-2xl font-headline font-semibold">${villa.price}</p>
+          <p className="text-2xl font-headline font-semibold">Rp. {villa.price.toLocaleString('id-ID')}</p>
           <p className="text-xs font-accent opacity-90">per night</p>
         </div>
       </div>

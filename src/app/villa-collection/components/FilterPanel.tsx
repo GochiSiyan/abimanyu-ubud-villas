@@ -127,17 +127,17 @@ const FilterPanel = ({ onFilterChange, onReset }: FilterPanelProps) => {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="font-body text-sm text-muted-foreground">
-                  ${filters.priceRange[0]}
+                  Rp. {filters.priceRange[0].toLocaleString('id-ID')}
                 </span>
                 <span className="font-body text-sm text-muted-foreground">
-                  ${filters.priceRange[1]}
+                  Rp. {filters.priceRange[1].toLocaleString('id-ID')}
                 </span>
               </div>
               <div className="space-y-2">
                 <input
                   type="range"
                   min="0"
-                  max="2000"
+                  max="10000000"
                   step="100"
                   value={filters.priceRange[0]}
                   onChange={(e) => handlePriceChange(Number(e.target.value), 0)}
@@ -146,7 +146,7 @@ const FilterPanel = ({ onFilterChange, onReset }: FilterPanelProps) => {
                 <input
                   type="range"
                   min="0"
-                  max="2000"
+                  max="10000000"
                   step="100"
                   value={filters.priceRange[1]}
                   onChange={(e) => handlePriceChange(Number(e.target.value), 1)}
