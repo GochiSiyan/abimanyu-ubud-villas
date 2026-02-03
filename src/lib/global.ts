@@ -41,6 +41,8 @@ export const VillaData: Villa[] = [
     { url: '/assets/images/villa/yudistira/bed.webp', alt: '' },
     { url: '/assets/images/villa/yudistira/outside.webp', alt: '' },
     { url: '/assets/images/villa/yudistira/interior.webp', alt: '' },
+    { url: '/assets/images/villa/yudistira/front.webp', alt: '' },
+    { url: '/assets/images/villa/yudistira/front2.webp', alt: '' },
     { url: '/assets/images/villa/yudistira/bath.webp', alt: '' },
     { url: '/assets/images/villa/yudistira/plang.webp', alt: '' }],
 
@@ -87,6 +89,10 @@ export const VillaData: Villa[] = [
     { url: '/assets/images/villa/bima/outside.webp', alt: 'Large infinity pool with waterfall feature, sun loungers, and tropical landscaping' },
     { url: '/assets/images/villa/bima/interior.webp', alt: 'Open-plan living area with high ceilings, modern furniture, and natural stone accents' },
     { url: '/assets/images/villa/bima/bath.webp', alt: 'Outdoor dining terrace with long wooden table, ambient lighting, and forest backdrop' },
+    { url: '/assets/images/villa/bima/front.webp', alt: '' },
+    { url: '/assets/images/villa/bima/front2.webp', alt: '' },
+    { url: '/assets/images/villa/bima/interior2.webp', alt: '' },
+    { url: '/assets/images/villa/bima/bath2.webp', alt: '' },
     { url: '/assets/images/villa/bima/plang.webp', alt: 'Luxurious spa bathroom with rain shower, soaking tub, and natural stone walls' }],
 
     price: 1250000,
