@@ -1,5 +1,6 @@
 import AppImage from '@/components/ui/AppImage';
 import Link from 'next/link';
+import HeroSlider from './HeroSlider';
 
 interface HeroSectionProps {
   onExploreClick: () => void;
@@ -10,13 +11,7 @@ export default function HeroSection({ onExploreClick }: HeroSectionProps) {
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background Video/Image */}
       <div className="absolute inset-0 z-0">
-        <AppImage
-          src="https://images.unsplash.com/photo-1613031708406-216926a100bf"
-          alt="Aerial view of luxury Balinese villa with infinity pool overlooking lush green rice terraces and tropical forest in Ubud"
-          fill
-          className="object-cover"
-          priority />
-
+          <HeroSlider />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />
       </div>
 
