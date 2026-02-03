@@ -20,38 +20,106 @@ export default function LocationSection() {
                 </div>
                 <div>
                   <p className="font-headline text-base font-semibold text-foreground">
-                    5 minutes to Ubud Palace
-                  </p>
-                  <p className="font-body text-sm text-muted-foreground">
-                    Experience traditional Balinese dance performances and royal heritage
+                    14 mins to Tirta Empul Temple
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <div className="w-2 h-2 bg-accent rounded-full" />
                 </div>
                 <div>
                   <p className="font-headline text-base font-semibold text-foreground">
-                    10 minutes to Tegallalang Rice Terraces
-                  </p>
-                  <p className="font-body text-sm text-muted-foreground">
-                    Witness UNESCO-recognized subak irrigation system and stunning landscapes
+                    15 mins to Suwat Waterfall
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <div className="w-2 h-2 bg-accent rounded-full" />
                 </div>
                 <div>
                   <p className="font-headline text-base font-semibold text-foreground">
-                    15 minutes to Sacred Monkey Forest
+                    15 mins to Alas Harum Bali
                   </p>
-                  <p className="font-body text-sm text-muted-foreground">
-                    Connect with nature and ancient temple sanctuaries
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-2 h-2 bg-accent rounded-full" />
+                </div>
+                <div>
+                  <p className="font-headline text-base font-semibold text-foreground">
+                    20 mins to Ubud Center
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-2 h-2 bg-accent rounded-full" />
+                </div>
+                <div>
+                  <p className="font-headline text-base font-semibold text-foreground">
+                    20 mins Campuhan Ridge Walk
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-2 h-2 bg-accent rounded-full" />
+                </div>
+                <div>
+                  <p className="font-headline text-base font-semibold text-foreground">
+                    20 mins Monkey Forest Ubud
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-2 h-2 bg-accent rounded-full" />
+                </div>
+                <div>
+                  <p className="font-headline text-base font-semibold text-foreground">
+                    25 mins to Bali Zoo
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-2 h-2 bg-accent rounded-full" />
+                </div>
+                <div>
+                  <p className="font-headline text-base font-semibold text-foreground">
+                    30 mins to Denpasar Downtown
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-2 h-2 bg-accent rounded-full" />
+                </div>
+                <div>
+                  <p className="font-headline text-base font-semibold text-foreground">
+                    45 mins to Airport
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-2 h-2 bg-accent rounded-full" />
+                </div>
+                <div>
+                  <p className="font-headline text-base font-semibold text-foreground">
+                    5 mins to International School
                   </p>
                 </div>
               </div>
@@ -66,7 +134,7 @@ export default function LocationSection() {
               loading="lazy"
               title="Abimanyu Ubud Villas Location"
               referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps?q=-8.5069,115.2625&z=14&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.1997496797126!2d115.29520271174665!3d-8.479948991525848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd219dc3568862f%3A0xf02299c899a4af5b!2sAbimanyu%20Ubud%20Villas!5e0!3m2!1sen!2sid!4v1770103345776!5m2!1sen!2sid"
               className="border-0"
             />
           </div>
