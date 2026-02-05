@@ -46,12 +46,12 @@ export const VillaData: Villa[] = [
     { url: '/assets/images/villa/yudistira/bath.webp', alt: '' },
     { url: '/assets/images/villa/yudistira/plang.webp', alt: '' }],
 
-    price: 2000000,
+    price: 1250000,
     available: true,
     bedrooms: 1,
     bathrooms: 1,
     maxGuests: 4,
-    size: 144,
+    size: 100,
     symbol: '🕉️',
     color: '#8B4513',
     amenities: [
@@ -143,12 +143,12 @@ export const VillaData: Villa[] = [
     { url: '/assets/images/villa/arjuna/bath.webp', alt: '' },
     { url: '/assets/images/villa/arjuna/plang.webp', alt: '' }],
 
-    price: 1250000,
+    price: 2000000,
     available: true,
     bedrooms: 1,
     bathrooms: 1,
     maxGuests: 4,
-    size: 100,
+    size: 144,
     symbol: '🎯',
     color: '#2F4F2F',
     amenities: [
