@@ -117,7 +117,7 @@ const PersonalityQuiz = ({ onComplete, onClose }: PersonalityQuizProps) => {
             </h2>
           </div>
           <p className="font-body text-base text-muted-foreground">
-            Answer these questions to find the Pandava villa that resonates with your spirit
+            Answer these questions to find the Pandawa villa that resonates with your spirit
           </p>
         </div>
 

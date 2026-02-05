@@ -32,10 +32,10 @@ export default function MythologySection({ items }: MythologySectionProps) {
             </svg>
           </div>
           <h2 className="font-headline text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground">
-            The Pandava Legacy
+            The Pandawa Legacy
           </h2>
           <p className="font-body text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Five legendary brothers, five extraordinary villas. Each villa embodies the unique virtues and spirit of the noble Pandava warriors from the ancient Mahabharata epic.
+            Five legendary brothers, five extraordinary villas. Each villa embodies the unique virtues and spirit of the noble Pandawa warriors from the ancient Mahabharata epic.
           </p>
         </div>
 

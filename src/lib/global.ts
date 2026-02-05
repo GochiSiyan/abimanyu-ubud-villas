@@ -1,8 +1,8 @@
 export interface Villa {
   id: number;
   name: string;
-  pandavaBrother: string;
-  pandavaBrotherAlias: string;
+  pandawaBrother: string;
+  pandawaBrotherAlias: string;
   characteristic: string;
   trait: string;
   description: string;
@@ -27,8 +27,8 @@ export const VillaData: Villa[] = [
   {
     id: 1,
     name: 'Villa Yudistira',
-    pandavaBrotherAlias: 'The Eldest Pandava',
-    pandavaBrother: "Yudistira",
+    pandawaBrotherAlias: 'The Eldest Pandawa',
+    pandawaBrother: "Yudistira",
     trait: "Wisdom",
     characteristic: 'Wisdom & Righteousness',
     description: 'Experience the tranquility of wisdom in this serene sanctuary designed for contemplation and learning. Perfect for those seeking intellectual and spiritual growth.',
@@ -69,13 +69,13 @@ export const VillaData: Villa[] = [
       'Cultural Workshop Space'
   ],
 
-    mythology: 'Yudistira, the eldest of the Pandava brothers, was renowned for his unwavering commitment to truth and dharma. Known as Dharmaraja (King of Righteousness), he never spoke a lie and always chose the path of virtue, even in the face of great adversity. His wisdom guided his brothers through countless challenges, and his devotion to justice made him a beacon of moral integrity. This villa channels his spirit of wisdom, offering guests a space for deep contemplation and spiritual growth.'
+    mythology: 'Yudistira, the eldest of the Pandawa brothers, was renowned for his unwavering commitment to truth and dharma. Known as Dharmaraja (King of Righteousness), he never spoke a lie and always chose the path of virtue, even in the face of great adversity. His wisdom guided his brothers through countless challenges, and his devotion to justice made him a beacon of moral integrity. This villa channels his spirit of wisdom, offering guests a space for deep contemplation and spiritual growth.'
   },
   {
     id: 2,
     name: 'Villa Bima',
-    pandavaBrotherAlias: 'The Mighty Warrior',
-    pandavaBrother: "Bima",
+    pandawaBrotherAlias: 'The Mighty Warrior',
+    pandawaBrother: "Bima",
     trait: "Strength",
     characteristic: 'Strength & Courage',
     description: 'Embrace the power of strength in this bold and dynamic villa. Ideal for adventurers and those who seek physical and mental fortitude.',
@@ -117,13 +117,13 @@ export const VillaData: Villa[] = [
     'Sports Equipment Storage',
     'Helicopter Landing Pad Access'],
 
-    mythology: 'Bima, the second Pandava brother, was celebrated for his extraordinary physical strength and unwavering courage. Known as Vrikodara (Wolf-Bellied), he possessed the strength of ten thousand elephants and wielded the mighty mace Gada. His fearless nature and protective instinct made him the guardian of his family. Despite his formidable power, Bima was deeply devoted to his brothers and fought with honor. This villa embodies his warrior spirit, offering guests a space to cultivate their own strength and courage.'
+    mythology: 'Bima, the second Pandawa brother, was celebrated for his extraordinary physical strength and unwavering courage. Known as Vrikodara (Wolf-Bellied), he possessed the strength of ten thousand elephants and wielded the mighty mace Gada. His fearless nature and protective instinct made him the guardian of his family. Despite his formidable power, Bima was deeply devoted to his brothers and fought with honor. This villa embodies his warrior spirit, offering guests a space to cultivate their own strength and courage.'
   },
   {
     id: 3,
     name: 'Villa Arjuna',
-    pandavaBrotherAlias: 'The Focused Archer',
-    pandavaBrother: "Arjuna",
+    pandawaBrotherAlias: 'The Focused Archer',
+    pandawaBrother: "Arjuna",
     trait: "Focus",
     characteristic: 'Focus & Precision',
     description: 'Find your center in this minimalist sanctuary designed for concentration and mindfulness. Perfect for those seeking clarity and purpose.',
@@ -165,13 +165,13 @@ export const VillaData: Villa[] = [
     'Yoga & Tai Chi Classes',
     'Personal Mindfulness Coach'],
 
-    mythology: 'Arjuna, the third Pandava brother, was the greatest archer of his time and a master of focus and discipline. His ability to concentrate on a single target while blocking out all distractions was legendary. As Krishna\'s closest friend and disciple, Arjuna received the sacred teachings of the Bhagavad Gita on the battlefield of Kurukshetra. His dedication to perfection and unwavering focus made him invincible in battle. This villa channels his spirit of precision, offering guests a space for deep concentration and mindful practice.'
+    mythology: 'Arjuna, the third Pandawa brother, was the greatest archer of his time and a master of focus and discipline. His ability to concentrate on a single target while blocking out all distractions was legendary. As Krishna\'s closest friend and disciple, Arjuna received the sacred teachings of the Bhagavad Gita on the battlefield of Kurukshetra. His dedication to perfection and unwavering focus made him invincible in battle. This villa channels his spirit of precision, offering guests a space for deep concentration and mindful practice.'
   },
   {
     id: 4,
     name: 'Villa Nakula',
-    pandavaBrotherAlias: 'The Beautiful Twin',
-    pandavaBrother: "Nakula",
+    pandawaBrotherAlias: 'The Beautiful Twin',
+    pandawaBrother: "Nakula",
     trait: "Beauty",
     characteristic: 'Beauty & Harmony',
     description: 'Immerse yourself in aesthetic perfection and artistic inspiration. This villa celebrates beauty in all its forms, ideal for creative souls.',
@@ -209,18 +209,18 @@ export const VillaData: Villa[] = [
     'Cultural Immersion Programs',
     'Personal Stylist Service'],
 
-    mythology: 'Nakula, the fourth Pandava brother and elder of the twins, was renowned for his extraordinary beauty and grace. Skilled in horse training and Ayurvedic medicine, he possessed both physical perfection and healing knowledge. His gentle nature and artistic sensibility made him beloved by all. Nakula\'s devotion to his family and his appreciation for beauty in all forms reflected his harmonious spirit. This villa embodies his aesthetic excellence, offering guests a space where beauty and tranquility converge.'
+    mythology: 'Nakula, the fourth Pandawa brother and elder of the twins, was renowned for his extraordinary beauty and grace. Skilled in horse training and Ayurvedic medicine, he possessed both physical perfection and healing knowledge. His gentle nature and artistic sensibility made him beloved by all. Nakula\'s devotion to his family and his appreciation for beauty in all forms reflected his harmonious spirit. This villa embodies his aesthetic excellence, offering guests a space where beauty and tranquility converge.'
   },
   {
     id: 5,
     name: 'Villa Sadewa',
-    pandavaBrotherAlias: 'The Devoted Twin',
-    pandavaBrother: "Sadewa",
+    pandawaBrotherAlias: 'The Devoted Twin',
+    pandawaBrother: "Sadewa",
     trait: "Devotion",
     characteristic: 'Devotion & Spirituality',
     description: 'Connect with the divine in this sacred sanctuary. Perfect for spiritual seekers and those on a journey of inner transformation.',
     description2: "The youngest brother's spiritual devotion manifests in this villa's sacred spaces. A private temple, healing garden, and ceremonial areas honor Balinese spiritual traditions.",
-    fullDescription: 'Villa Sadewa channels the profound devotion and spiritual wisdom of the youngest Pandava, offering a sacred retreat for those seeking deep spiritual connection. With a private temple, ceremonial spaces, and daily spiritual practices, this villa provides an authentic pathway to inner transformation. The architecture honors traditional Balinese spiritual design while offering modern comfort for contemplative living.',
+    fullDescription: 'Villa Sadewa channels the profound devotion and spiritual wisdom of the youngest Pandawa, offering a sacred retreat for those seeking deep spiritual connection. With a private temple, ceremonial spaces, and daily spiritual practices, this villa provides an authentic pathway to inner transformation. The architecture honors traditional Balinese spiritual design while offering modern comfort for contemplative living.',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_16510743c-1765118921368.png",
     alt: 'Sacred villa with traditional Balinese temple architecture, stone carvings, ceremonial gates, incense offerings, and spiritual garden',
     gallery: [
@@ -253,6 +253,6 @@ export const VillaData: Villa[] = [
     'Spiritual Library',
     'Pilgrimage Coordination'],
 
-    mythology: 'Sadewa, the youngest of the Pandava brothers and Nakula\'s twin, was blessed with profound spiritual wisdom and knowledge of the scriptures. Skilled in astrology and spiritual sciences, he could foresee events and understand the deeper meanings of existence. His devotion to dharma and his spiritual insights guided his family through difficult times. Sadewa\'s gentle nature and deep faith made him a spiritual anchor for the Pandavas. This villa honors his devotional spirit, offering guests a sacred space for spiritual growth and divine connection.'
+    mythology: 'Sadewa, the youngest of the Pandawa brothers and Nakula\'s twin, was blessed with profound spiritual wisdom and knowledge of the scriptures. Skilled in astrology and spiritual sciences, he could foresee events and understand the deeper meanings of existence. His devotion to dharma and his spiritual insights guided his family through difficult times. Sadewa\'s gentle nature and deep faith made him a spiritual anchor for the Pandawas. This villa honors his devotional spirit, offering guests a sacred space for spiritual growth and divine connection.'
   }
 ];

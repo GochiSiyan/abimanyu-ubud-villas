@@ -54,7 +54,7 @@ export default function HomepageInteractive() {
   {
     id: 1,
     title: "Yudistira - The Wise King",
-    description: "The eldest Pandava, known for his unwavering commitment to dharma and truth. His wisdom guides all decisions with righteousness and moral clarity.",
+    description: "The eldest Pandawa, known for his unwavering commitment to dharma and truth. His wisdom guides all decisions with righteousness and moral clarity.",
     image: "https://images.unsplash.com/photo-1699587090112-0025b205a3f1",
     alt: "Serene meditation space with traditional Balinese offerings, incense, and golden Buddha statue representing wisdom and dharma"
   },
@@ -82,7 +82,7 @@ export default function HomepageInteractive() {
   {
     id: 5,
     title: "Sadewa - The Devoted Brother",
-    description: "The youngest Pandava, Sadewa's spiritual knowledge and devotion to family represent deep commitment and sacred wisdom.",
+    description: "The youngest Pandawa, Sadewa's spiritual knowledge and devotion to family represent deep commitment and sacred wisdom.",
     image: "https://images.unsplash.com/photo-1540961845746-c5c2964bb9d4",
     alt: "Sacred Balinese temple altar with fresh flower offerings, burning incense, holy water vessels, and traditional ceremonial items"
   }];
@@ -197,7 +197,7 @@ export default function HomepageInteractive() {
               Five Legendary Villas
             </h2>
             <p className="font-body text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Each villa embodies the unique spirit of a Pandava brother, offering distinct experiences rooted in ancient mythology and modern luxury.
+              Each villa embodies the unique spirit of a Pandawa brother, offering distinct experiences rooted in ancient mythology and modern luxury.
             </p>
           </div>
 

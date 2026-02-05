@@ -8,7 +8,7 @@ interface VillaDetailModalProps {
   villa: {
     id: number;
     name: string;
-    pandavaBrotherAlias: string;
+    pandawaBrotherAlias: string;
     characteristic: string;
     description: string;
     fullDescription: string;
@@ -79,7 +79,7 @@ const VillaDetailModal = ({ villa, isOpen, onClose, onBook }: VillaDetailModalPr
                 {villa.name}
               </h2>
               <p className="font-accent text-lg text-accent uppercase tracking-widest">
-                {villa.pandavaBrotherAlias}
+                {villa.pandawaBrotherAlias}
               </p>
             </div>
           </div>

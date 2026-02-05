@@ -42,7 +42,7 @@ export default function CTASection() {
 
         {/* Description */}
         <p className="font-body text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-          Discover which Pandava villa resonates with your spirit. Book your transformative stay and experience the perfect fusion of mythology, luxury, and authentic Balinese culture.
+          Discover which Pandawa villa resonates with your spirit. Book your transformative stay and experience the perfect fusion of mythology, luxury, and authentic Balinese culture.
         </p>
 
         {/* CTA Buttons */}

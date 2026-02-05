@@ -8,7 +8,7 @@ interface VillaCardProps {
   villa: {
     id: number;
     name: string;
-    pandavaBrotherAlias: string;
+    pandawaBrotherAlias: string;
     characteristic: string;
     description: string;
     image: string;
@@ -66,7 +66,7 @@ const VillaCard = ({ villa, onViewDetails, onBook }: VillaCardProps) => {
             {villa.name}
           </h3>
           <p className="font-accent text-sm text-accent uppercase tracking-widest">
-            {villa.pandavaBrotherAlias}
+            {villa.pandawaBrotherAlias}
           </p>
         </div>
 

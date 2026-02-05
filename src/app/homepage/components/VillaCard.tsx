@@ -5,7 +5,7 @@ interface VillaCardProps {
   villa: {
     id: number;
     name: string;
-    pandavaBrother: string;
+    pandawaBrother: string;
     trait: string;
     description2: string;
     image: string;
@@ -45,7 +45,7 @@ export default function VillaCard({ villa, onLearnMore }: VillaCardProps) {
         {/* Mythological Symbol */}
         <div className="absolute top-4 left-4 w-12 h-12 bg-accent/90 rounded-full flex items-center justify-center">
           <span className="font-headline text-xl font-semibold text-accent-foreground">
-            {villa.pandavaBrother.charAt(0)}
+            {villa.pandawaBrother.charAt(0)}
           </span>
         </div>
       </div>
@@ -58,7 +58,7 @@ export default function VillaCard({ villa, onLearnMore }: VillaCardProps) {
             {villa.name}
           </h3>
           <p className="font-accent text-sm text-primary uppercase tracking-widest">
-            {villa.pandavaBrother} • {villa.trait}
+            {villa.pandawaBrother} • {villa.trait}
           </p>
         </div>
 

@@ -59,7 +59,7 @@ export default function HeroSection({ onExploreClick }: HeroSectionProps) {
 
           {/* Description */}
           <p className="font-accent text-base md:text-lg text-white/80 max-w-2xl mx-auto leading-relaxed">
-            Embark on a spiritual journey through five legendary villas, each named after the noble Pandava brothers. Experience authentic Balinese culture wrapped in contemporary luxury.
+            Embark on a spiritual journey through five legendary villas, each named after the noble Pandawa brothers. Experience authentic Balinese culture wrapped in contemporary luxury.
           </p>
 
           {/* CTA Buttons */}

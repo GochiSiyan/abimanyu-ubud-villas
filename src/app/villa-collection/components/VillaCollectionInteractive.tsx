@@ -150,7 +150,7 @@ const VillaCollectionInteractive = () => {
             Villa Collection
           </h1>
           <p className="font-body text-xl text-white/90 max-w-2xl">
-            Discover your perfect sanctuary among the five legendary Pandava villas, each embodying unique characteristics of wisdom, strength, focus, beauty, and devotion.
+            Discover your perfect sanctuary among the five legendary Pandawa villas, each embodying unique characteristics of wisdom, strength, focus, beauty, and devotion.
           </p>
         </div>
       </div>

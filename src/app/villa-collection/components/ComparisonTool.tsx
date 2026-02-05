@@ -6,7 +6,7 @@ import Icon from '@/components/ui/AppIcon';
 interface Villa {
   id: number;
   name: string;
-  pandavaBrotherAlias: string;
+  pandawaBrotherAlias: string;
   characteristic: string;
   image: string;
   alt: string;
@@ -71,7 +71,7 @@ const ComparisonTool = ({ villas, onClose, onBook }: ComparisonToolProps) => {
                         {villa.name}
                       </h3>
                       <p className="font-accent text-sm text-accent uppercase tracking-widest">
-                        {villa.pandavaBrotherAlias}
+                        {villa.pandawaBrotherAlias}
                       </p>
                     </div>
 

@@ -24,7 +24,7 @@ const Header = () => {
     {
       name: 'Villa Collection',
       href: '/villa-collection',
-      description: 'Discover the Pandava villas',
+      description: 'Discover the Pandawa villas',
     },
   ];
 
