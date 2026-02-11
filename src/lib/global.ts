@@ -46,7 +46,7 @@ export const VillaData: Villa[] = [
     { url: '/assets/images/villa/yudistira/bath.webp', alt: '' },
     { url: '/assets/images/villa/yudistira/plang.webp', alt: '' }],
 
-    price: 1250000,
+    price: 1000000,
     available: true,
     bedrooms: 1,
     bathrooms: 1,
@@ -96,7 +96,7 @@ export const VillaData: Villa[] = [
     { url: '/assets/images/villa/bima/bath2.webp', alt: '' },
     { url: '/assets/images/villa/bima/plang.webp', alt: 'Luxurious spa bathroom with rain shower, soaking tub, and natural stone walls' }],
 
-    price: 1250000,
+    price: 1000000,
     available: true,
     bedrooms: 1,
     bathrooms: 1,
@@ -202,7 +202,7 @@ export const VillaData: Villa[] = [
       { url: '/assets/images/villa/nakewa/interior7.webp', alt: '' },
     ],
 
-    price: 1000000,
+    price: 1250000,
     available: true,
     bedrooms: 1,
     bathrooms: 1,
@@ -255,7 +255,7 @@ export const VillaData: Villa[] = [
       { url: '/assets/images/villa/nakewa/interior7.webp', alt: '' },
     ],
 
-    price: 1000000,
+    price: 1250000,
     available: true,
     bedrooms: 1,
     bathrooms: 1,
