@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Icon from '@/components/ui/AppIcon';
+import AppImage from '@/components/ui/AppImage';
 
 interface NavigationItem {
   name: string;
@@ -51,46 +52,11 @@ const Header = () => {
             onClick={closeMobileMenu}
           >
             <div className="relative">
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className="transition-transform duration-300 group-hover:scale-105"
-              >
-                {/* Outer temple structure */}
-                <path
-                  d="M24 4L4 16V20H44V16L24 4Z"
-                  fill="var(--color-primary)"
-                  className="transition-colors duration-300"
-                />
-                {/* Middle temple tier */}
-                <path
-                  d="M8 20H40V28H8V20Z"
-                  fill="var(--color-secondary)"
-                  className="transition-colors duration-300"
-                />
-                {/* Base temple structure */}
-                <path
-                  d="M12 28H36V44H12V28Z"
-                  fill="var(--color-primary)"
-                  className="transition-colors duration-300"
-                />
-                {/* Sacred entrance */}
-                <rect
-                  x="20"
-                  y="32"
-                  width="8"
-                  height="12"
-                  fill="var(--color-accent)"
-                  className="transition-colors duration-300"
-                />
-                {/* Decorative elements */}
-                <circle cx="24" cy="12" r="2" fill="var(--color-accent)" />
-                <circle cx="16" cy="24" r="1.5" fill="var(--color-accent)" />
-                <circle cx="32" cy="24" r="1.5" fill="var(--color-accent)" />
-              </svg>
+              <AppImage
+                src="assets/images/logo.png"
+                alt=""
+                className='w-12'
+              />
             </div>
             <div className="flex flex-col">
               <span className="font-headline text-2xl font-semibold text-primary tracking-wide">

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Icon from '@/components/ui/AppIcon';
+import AppImage from '@/components/ui/AppImage';
 
 export default function Footer() {
   const [currentYear, setCurrentYear] = useState<number>(2026);
@@ -18,17 +19,11 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <svg
-                width="40"
-                height="40"
-                viewBox="0 0 40 40"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M20 4L4 12V16H36V12L20 4Z" fill="var(--color-accent)" />
-                <path d="M8 16H32V22H8V16Z" fill="var(--color-primary)" />
-                <path d="M12 22H28V36H12V22Z" fill="var(--color-accent)" />
-              </svg>
+              <AppImage
+                src="assets/images/logo.png"
+                alt=""
+                className='w-12'
+              />
               <div>
                 <p className="font-headline text-xl font-semibold">Abimanyu</p>
                 <p className="font-accent text-xs uppercase tracking-widest">Ubud Villas</p>

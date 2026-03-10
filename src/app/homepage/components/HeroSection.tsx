@@ -20,31 +20,11 @@ export default function HeroSection({ onExploreClick }: HeroSectionProps) {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           {/* Mythological Symbol */}
           <div className="inline-block animate-fade-in">
-            <svg
-              width="80"
-              height="80"
-              viewBox="0 0 80 80"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="mx-auto">
-
-              <path
-                d="M40 8L8 24V32H72V24L40 8Z"
-                fill="var(--color-accent)"
-                opacity="0.9" />
-
-              <path
-                d="M16 32H64V44H16V32Z"
-                fill="var(--color-primary)"
-                opacity="0.8" />
-
-              <path
-                d="M24 44H56V72H24V44Z"
-                fill="var(--color-secondary)"
-                opacity="0.9" />
-
-              <circle cx="40" cy="20" r="3" fill="var(--color-accent)" />
-            </svg>
+            <AppImage
+              src="assets/images/logo.png"
+              alt=""
+              className='w-20 mx-auto'
+            />
           </div>
 
           {/* Main Headline */}
